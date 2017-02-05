@@ -16,7 +16,6 @@
     </div>
 </div>
 
-
 <div class="page2">
     <div class="content2">
     <a href="#" class="JesterBox">
