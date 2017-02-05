@@ -10,8 +10,8 @@
     <div class="menu">
       <ul>
         <li><a href="index.html">HOME</a></li>
-        <li><a href="artworks.asp">ARTWORKS</a></li>
-        <li><a href="about.asp">ABOUT & CONTACT</a></li>
+        <li><a class="actual" href="artworks.asp">ARTWORKS</a></li>
+        <li><a href="about.asp">ABOUT & CONTACT  </a></li>
       </ul>
     </div>
 </div>
@@ -122,30 +122,8 @@
       </div>
     </div>
 
-    <div id="myModal" class="modal">
-      <span class="close">×</span>
-      <img class="modal-content" id="img01">
-      <div id="caption"></div>
-    </div>
+    
 
-    <script>
-var modal = document.getElementById('myModal');
-
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() {
-    modal.style.display = "none";
-}
-</script>
 
 
 </body>
