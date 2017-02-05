@@ -26,7 +26,7 @@
 
           <div class="photo">
 
-          <p> HELLO, my name is Sint <br> <br> I'm 16 years old Illustrator from Russia. </p>
+          <p> HELLO, my name is Sint! <br> <br> I'm 16 years old Illustrator from Russia. </p>
           <br>
           <br>
              <img id="myphoto" src="images/photo.jpg" alt="photo-of-me" >
